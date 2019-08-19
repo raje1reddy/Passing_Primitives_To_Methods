@@ -1,11 +1,9 @@
-
 class Employee {
-    String name;
     int age;
-    Employee(){
-        age = 20;
-        System.out.println("user defined constructor");
-
+    void modifyVal(int a) { //Method modifyVal accepts method argument of type int
+        a = a + 1;
+        System.out.println(a);
     }
+
 }
 
